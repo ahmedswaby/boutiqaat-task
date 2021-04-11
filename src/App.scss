@@ -1,0 +1,30 @@
+@import 'swiper/swiper.scss';
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+a {
+    color: #000;
+}
+.categories {
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    a {
+        & + a {
+            margin-left: 10px;
+        }
+    }
+}
+footer {
+        background-color: #f9f9f9;
+        border-top: 1px solid #000;
+        margin-top: 50px;
+        padding: 20px 0;
+}
+.swiper-slide {
+    min-height: 100%;
+}
