@@ -6,7 +6,6 @@ const context = createContext()
 
 
 const AppProvider = ({children}) => {
-    const [items, setItems] = useState([]);
 
     
     return <context.Provider value={{  }}>
