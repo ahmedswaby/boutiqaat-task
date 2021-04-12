@@ -3,7 +3,7 @@
   "description": "task made for Boutiqaat company as a proccess for a frontend hiring",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://ahmedswaby.github.io/boutiqaat-task",
   "dependencies": {
     "axios": "^0.21.1",
     "dateformat": "^4.5.1",
